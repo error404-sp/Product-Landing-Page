@@ -1,0 +1,151 @@
+body{
+  background-image: linear-gradient(#FDC29E,#F391AB,#EB66B7,#DA72C4,#BA8BDC,#B292E3,#A39EEE,#8EAFFE);
+  color: #1E3264;
+  font-family: 'Montserrat', sans-serif;
+}
+.img
+{
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 50px;
+ 
+  
+}
+@media(min-width:400px){
+  .img{ width:285px;
+  height: 285px;
+    margin-top: 70px;
+    margin-left: 5px;
+  }
+  .img2{
+    margin-left: 10px;
+  }
+    
+  body{
+    font-size: 15px;
+  }
+}
+h2{
+  font-size: 48px;
+  font-weight:500;
+}
+h4{
+  font-size : 30px;
+  font-weight: 200;
+  }
+a{
+  text-decoration: none;
+  color: #1E3264;
+  }
+.navbar{
+  width: 98%;
+  height: 40px;
+  font-size:15px;
+  background: #FDC29E;
+  padding: 10px;
+  position: reltive;
+  display:flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+.cart{
+  background: #5C22FF;
+  width: 160px;
+  height: 40px;
+  position: relative;
+  left: 90px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.button{
+  text-align:center;
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+.cart:hover{
+  background: white;
+  
+}
+.main{
+  
+}
+.button:hover{
+  color: #5C22FF;
+}
+.whats{
+  position:relative;
+  margin-top: 50px;
+  display: grid;
+  min-height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+ 
+}
+.img2{
+  border-radius: 50%;
+  max-width: 100%;
+  margin-top: 10px;
+
+}
+.cont1{
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  
+  }
+.cont2{
+  margin: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  
+  }
+.cont3{
+  margin: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 10px;
+  
+  }
+.whatsinside{
+  
+}
+
+ .img3{
+   border-radius: 50%;
+
+  }
+.manufact{
+  min-height: 100px;
+    width: 100%;
+ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    
+}
+.contmain{
+ 
+  min-height: 100px;
+    width: 100%;
+ 
+    display: grid;
+ 
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+    
+}
+.reviews{
+  min-height: 100px;
+    width: 100%;
+ 
+    display: grid;
+ 
+    grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
+}
+ 
+ a:focus {
+    outline: none;
+}
